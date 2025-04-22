@@ -22,10 +22,4 @@ Aplikacija je organizovana u tri glavna sloja:
 - **Service** – `TaskService.java`: Sadrži poslovnu logiku – dodavanje, brisanje i ažuriranje taskova.
 - **Controller** – `TaskController.java`: REST API sloj koji prihvata HTTP zahteve i koristi servisni sloj za obradu.
 
-Podaci se čuvaju u memoriji pomoću `HashMap`, bez upotrebe baze podataka.
-
-## 🚀 Kako pokrenuti projekat
-
-1. Kloniraj repozitorijum:
-   ```bash
-   git clone https://github.com/ime/prezime/simple-task-manager.git
+Podaci se čuvaju u memoriji pomoću `HashMap`, bez upotrebe baze podataka
